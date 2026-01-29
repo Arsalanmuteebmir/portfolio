@@ -127,7 +127,7 @@ export const education = [
   {
     id: 3,
     img: lhsLogo,
-    school: "SRM Institue of Science And Technology,TamilNadu",
+    school: "Linton Hall School,Srinagar",
     date: "Dec 2019 - Jan 2020",
     grade: "84.2%",
     desc: "I completed my class 10 education from Linton Hall School, Srinagar, under the J&K board, where I studied Science with Computer.",
