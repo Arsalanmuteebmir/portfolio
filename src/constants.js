@@ -32,6 +32,7 @@ import mvvid from './assets/work/work1.mp4';
 import ccvid from './assets/work/work2.mp4';
 import rtcLogo from './assets/work/work3.png';
 import pcLogo from './assets/work/work4.png';
+import pvid from './assets/work/work5.mp4';
 
 export const SkillsInfo = [
   {
@@ -92,7 +93,7 @@ export const experiences = [
       "SQL",
     ],
   },
-  
+
 ];
 
 export const education = [
@@ -171,4 +172,13 @@ export const projects = [
     tags: ["Express.js", "EJS", "UUID", "Method-Override", "JavaScript", "MySQL"],
     github: "https://github.com/Arsalanmuteebmir/nodewithsql",
   },
+  {
+    id: 4,
+    title: "My Portfolio",
+    description:
+      "I build clean, interactive, and scalable web applications with React, Node.js, and modern UI design.",
+    video: pvid,
+    tags: ["Express.js", "EJS", "UUID", "Method-Override", "JavaScript", "MySQL"],
+    github: "https://github.com/Arsalanmuteebmir/nodewithsql",
+  }
 ];  
