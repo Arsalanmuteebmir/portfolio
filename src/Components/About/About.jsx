@@ -42,7 +42,7 @@ const About = () => {
             Learning new technologies and improving my problem-solving skills keeps me motivated every day.
           </p>
           {/* Resume button */}
-          <a href="https://drive.google.com/file/d/1oKyxLdgJzCcoqUhijzqfchU-N716i2D7/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/1iw0A3p2Fx3ssy3U3je8zSKvNBfi5vcqN/view?usp=sharing"
             target='_blank'
             rel='noopener noreferrer'
             className='inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105 '
