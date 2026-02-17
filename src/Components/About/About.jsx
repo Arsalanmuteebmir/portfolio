@@ -1,7 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from "react-type-animation";
 import Tilt from 'react-parallax-tilt'
-import myimg from "../../assets/myimg.png";
+import myimg from "../../assets/myimg.jpeg";
 const About = () => {
   return (
     <section
