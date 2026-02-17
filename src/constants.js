@@ -20,6 +20,7 @@ import vercelLogo from './assets/skills/vercel.png';
 
 // Experience Section Logo's
 import umLogo from './assets/companies/unifiedmentor.png'
+import dnlogo from './assets/companies/dn.jpeg'
 
 // Education Section Logo's
 import lhsLogo from './assets/education/educations1.png';
@@ -33,6 +34,7 @@ import ccvid from './assets/work/work2.mp4';
 import rtcLogo from './assets/work/work3.png';
 import pcLogo from './assets/work/work4.png';
 import pvid from './assets/work/work5.mp4';
+import sdlogo from "./assets/work/safedel.png"
 
 export const SkillsInfo = [
   {
@@ -77,10 +79,31 @@ export const SkillsInfo = [
 ];
 
 export const experiences = [
+ {
+  id: 0,
+  img: dnlogo,
+  role: "Intern Backend Developer",
+  company: "Dynamix Networks",
+  date: "February 2026 - Present",
+  desc: "Currently working as a Backend Developer Intern, building and improving RESTful APIs using Node.js and Express.js. Developing logic-driven backend systems such as a proof-of-location delivery API, implementing geolocation validation with Turf.js, MongoDB database integration, and scalable route-service architecture. Collaborating with the team to design efficient backend workflows and solve real-world problems through clean and maintainable code.",
+  skills: [
+    "Node.js",
+    "Express.js",
+    "JavaScript (ES6+)",
+    "MongoDB",
+    "Mongoose",
+    "REST APIs",
+    "Turf.js",
+    "Postman",
+    "Git",
+    "GitHub"
+  ],
+},
+
   {
-    id: 0,
+    id: 1,
     img: umLogo,
-    role: "Fullstack Developer",
+    role: "Intern Fullstack Developer",
     company: "Unified Mentor Private Limited",
     date: "December 2024 - June 2025",
     desc: "Contributed to innovative projects as a Fullstack Developer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
@@ -180,5 +203,14 @@ export const projects = [
     video: pvid,
     tags: ["Express.js", "EJS", "UUID", "Method-Override", "JavaScript", "MySQL"],
     github: "https://github.com/Arsalanmuteebmir/nodewithsql",
+  },
+   {
+    id: 5,
+    title: "Safe Delivery Backend",
+    description:
+      "Developed a geolocation-based delivery validation API using Node.js,MongoDB,and Turf.js to ensure proofof-location before marking orders delivered",
+    image: sdlogo,
+    tags: ["Node.js,Express.js", "MongoDB Atlas", "Mongoose", "Turf.js", "REST APIs", "Geolocation", "Postman", "Git & GitHub"],
+    github: "https://github.com/Arsalanmuteebmir/SafeDelivery_backend",
   }
 ];  
