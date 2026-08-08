@@ -84,7 +84,7 @@ export const experiences = [
   img: dnlogo,
   role: "Intern Backend Developer",
   company: "Dynamix Networks",
-  date: "February 2026 - Present",
+  date: "February 2026 - May 2026",
   desc: "Currently working as a Backend Developer Intern, building and improving RESTful APIs using Node.js and Express.js. Developing logic-driven backend systems such as a proof-of-location delivery API, implementing geolocation validation with Turf.js, MongoDB database integration, and scalable route-service architecture. Collaborating with the team to design efficient backend workflows and solve real-world problems through clean and maintainable code.",
   skills: [
     "Node.js",
