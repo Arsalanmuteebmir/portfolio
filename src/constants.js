@@ -79,26 +79,26 @@ export const SkillsInfo = [
 ];
 
 export const experiences = [
- {
-  id: 0,
-  img: dnlogo,
-  role: "Intern Backend Developer",
-  company: "Dynamix Networks",
-  date: "February 2026 - May 2026",
-  desc: "Currently working as a Backend Developer Intern, building and improving RESTful APIs using Node.js and Express.js. Developing logic-driven backend systems such as a proof-of-location delivery API, implementing geolocation validation with Turf.js, MongoDB database integration, and scalable route-service architecture. Collaborating with the team to design efficient backend workflows and solve real-world problems through clean and maintainable code.",
-  skills: [
-    "Node.js",
-    "Express.js",
-    "JavaScript (ES6+)",
-    "MongoDB",
-    "Mongoose",
-    "REST APIs",
-    "Turf.js",
-    "Postman",
-    "Git",
-    "GitHub"
-  ],
-},
+  {
+    id: 0,
+    img: dnlogo,
+    role: "Intern Backend Developer",
+    company: "Dynamix Networks",
+    date: "February 2026 - May 2026",
+    desc: "Currently working as a Backend Developer Intern, building and improving RESTful APIs using Node.js and Express.js. Developing logic-driven backend systems such as a proof-of-location delivery API, implementing geolocation validation with Turf.js, MongoDB database integration, and scalable route-service architecture. Collaborating with the team to design efficient backend workflows and solve real-world problems through clean and maintainable code.",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "JavaScript (ES6+)",
+      "MongoDB",
+      "Mongoose",
+      "REST APIs",
+      "Turf.js",
+      "Postman",
+      "Git",
+      "GitHub"
+    ],
+  },
 
   {
     id: 1,
@@ -202,9 +202,9 @@ export const projects = [
       "I build clean, interactive, and scalable web applications with React, Node.js, and modern UI design.",
     video: pvid,
     tags: ["Express.js", "EJS", "UUID", "Method-Override", "JavaScript", "MySQL"],
-    github: "https://github.com/Arsalanmuteebmir/nodewithsql",
+    github: "https://github.com/Arsalanmuteebmir/portfolio",
   },
-   {
+  {
     id: 5,
     title: "Safe Delivery Backend",
     description:
