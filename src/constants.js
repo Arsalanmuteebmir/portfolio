@@ -165,7 +165,7 @@ export const projects = [
     title: "ComplainAi",
     description:
       "ComplainAI is an AI-powered centralized grievance platform that uses Grok AI to analyze, categorize, prioritize, and route citizen complaints to the appropriate category administrators and departments.",
-    video: comlog,
+    image: comlog,
     tags: ["React.js", "Node.js/Express.js", "MongoDB", "Grok AI", "Cloudinary", "JWT"],
     github: "https://github.com/Arsalanmuteebmir/ComplainAi",
   },
