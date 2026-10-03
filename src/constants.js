@@ -35,6 +35,7 @@ import rtcLogo from './assets/work/work3.png';
 import pcLogo from './assets/work/work4.png';
 import pvid from './assets/work/work5.mp4';
 import sdlogo from "./assets/work/safedel.png"
+import comlog from "./assets/work/comlogo.png"
 
 export const SkillsInfo = [
   {
@@ -161,6 +162,15 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "ComplainAi",
+    description:
+      "ComplainAI is an AI-powered centralized grievance platform that uses Grok AI to analyze, categorize, prioritize, and route citizen complaints to the appropriate category administrators and departments.",
+    video: comlog,
+    tags: ["React.js", "Node.js/Express.js", "MongoDB", "Grok AI", "Cloudinary", "JWT"],
+    github: "https://github.com/Arsalanmuteebmir/ComplainAi",
+  },
+  {
+    id: 1,
     title: "Movie Website",
     description:
       "A responsive movie browsing app built with React that lets users search movies in real time using the TMDB API and save favorites using localStorage. Includes multi-page navigation and reusable UI components.",
@@ -169,7 +179,7 @@ export const projects = [
     github: "https://github.com/Arsalanmuteebmir/ReactProject",
   },
   {
-    id: 1,
+    id: 2,
     title: "Currency Converter",
     description:
       "A simple and fast currency converter made using React that converts between different currencies with a clean UI and swap functionality. Helps practice API handling and input-based state management.",
@@ -178,7 +188,7 @@ export const projects = [
     github: "https://github.com/Arsalanmuteebmir/ReactParts/tree/main/reactproject6",
   },
   {
-    id: 2,
+    id: 3,
     title: "Real-Time Chat App",
     description:
       "A REST-based chat application with full CRUD operations for messages, built using Express.js and MongoDB. Includes message creation, editing, deletion, and structured backend using MVC architecture.",
@@ -187,7 +197,7 @@ export const projects = [
     github: "https://github.com/Arsalanmuteebmir/mongo-with-express",
   },
   {
-    id: 3,
+    id: 4,
     title: "Posts CRUD App",
     description:
       "A basic blog-style CRUD project where users can create, view, edit, and delete posts using RESTful routing. Built with clean route handling and server-rendered pages using EJS templates.",
@@ -196,7 +206,7 @@ export const projects = [
     github: "https://github.com/Arsalanmuteebmir/nodewithsql",
   },
   {
-    id: 4,
+    id: 5,
     title: "My Portfolio",
     description:
       "I build clean, interactive, and scalable web applications with React, Node.js, and modern UI design.",
@@ -205,7 +215,7 @@ export const projects = [
     github: "https://github.com/Arsalanmuteebmir/portfolio",
   },
   {
-    id: 5,
+    id: 6,
     title: "Safe Delivery Backend",
     description:
       "Developed a geolocation-based delivery validation API using Node.js,MongoDB,and Turf.js to ensure proofof-location before marking orders delivered",
